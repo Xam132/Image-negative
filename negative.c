@@ -2,8 +2,8 @@
 int main(){
     int width=0;
     int height=0;
-    FILE* file1 = fopen("D:/vscode files/code files/imageworks/arsenic.ppm","rb"); // Input file
-    FILE* file2 = fopen("D:/vscode files/code files/imageworks/negarsenic.ppm","wb"); // Output file
+    FILE* file1 = fopen("arsenic.ppm","rb"); // Input file
+    FILE* file2 = fopen("negarsenic.ppm","wb"); // Output file
     if(file1==NULL){
         printf("Error opening the file.\n");
         return 1;
